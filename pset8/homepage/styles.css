@@ -1,0 +1,45 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.bluetext
+{
+    text-align: center;
+    color: rgb(28, 188, 119);
+}
+
+.redtext
+{
+    text-align: center;
+    color: rgb(244, 97, 100);
+}
+
+.image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*.container
+{
+    background-color: rgb(250, 235, 215)
+}*/
+
+.blacktext
+{
+    text-align: center;
+    color: rgb(84, 84, 84);
+}
+
+.breadcrumb>li+li:before
+{
+    padding: 0 5px; color: #ccc; content: "/";
+}
+
+.button
+{
+    text-align: center;
+}

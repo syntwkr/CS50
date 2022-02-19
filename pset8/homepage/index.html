@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Homepage</title>
+
+        <script>
+            // Run script Once DOM is loaded
+            document.addEventListener('DOMContentLoaded', function() {
+
+                // When YES is clicked, say "Super"
+                let yes = document.querySelector('.btn-success');
+                yes.addEventListener('click', function(){
+                    document.querySelector('#yes').innerHTML = 'Super!';
+                });
+
+                // When NO is clicked, say "Alrighty"
+                let no = document.querySelector('.btn-danger');
+                no.addEventListener('click', function(){
+                    document.querySelector('#no').innerHTML = 'Alrighty';
+                });
+            });
+
+        </script>
+
+    </head>
+
+    <body>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breacrumb-item active" aria-current = "page">Home</li>
+                <li class="breacrumb-item"><a href="second.html">Second page</a></li>
+                <li class="breacrumb-item"><a href="third.html">Third page</a></li>
+                <li class="breacrumb-item"><a href="fourth.html">Fourth page</a></li>
+            </ol>
+        </nav>
+        <img src='green_wave_1280x800.jpg' alt='green' class = 'image'>
+        <h1 class = 'bluetext'><b>Here's my brand new homepage</b></h1>
+        <p class = 'redtext'>There's another <strong><a href="https://stackoverflow.com/questions/25326699/proper-aria-handling-of-breadcrumb-navigation">link</a></strong>.</p>
+
+        <p><br></p>
+
+        <div class="container light">
+            <div class="col-md-12 text-center">
+            <button type="button" class="btn btn-success">Yes</button>
+            <button type="button" class="btn btn-danger">No</button>
+            <p id=yes></p><p id=no></p>
+            </div>
+
+        </div>
+
+        <p><br></p>
+
+        <div class = 'container'>
+            <div class = 'jumbotron'>
+            <h1>BIG header for some container</h1>
+            <p>Honestly I don't know what to put here.</p>
+            </div>
+        </div>
+
+        <h2 class = 'blacktext'><br><b>ASCII - Binary Character Table</b></h2>
+        <table class = 'table'>
+            <thead class = 'thread-dark'>
+                <tr>
+                    <th scope = 'col'>Letter</th>
+                    <th scope = 'col'>ASCII Code</th>
+                    <th scope = 'col'>Binary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>097</td>
+                    <td><a href = 'http://sticksandstones.kstrom.com/appen.html'>01100001</a></td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>098</td>
+                    <td><a href = 'http://sticksandstones.kstrom.com/appen.html'>01100010</a></td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>099</td>
+                    <td><a href = 'http://sticksandstones.kstrom.com/appen.html'>01100011</a></td>
+                </tr>
+                <tr>
+                    <td>d</td>
+                    <td>100</td>
+                    <td><a href = 'http://sticksandstones.kstrom.com/appen.html'>01100100</a></td>
+                </tr>
+                <tr>
+                    <td>e</td>
+                    <td>101</td>
+                    <td><a href = 'http://sticksandstones.kstrom.com/appen.html'>01100101</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
