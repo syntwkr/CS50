@@ -1,0 +1,11 @@
+sort1 uses: bubble sort;
+
+How do you know?: it is significantly faster on a sorted list (omega n), than unsorted/reversed (bigO n-squared).
+
+sort2 uses: merge sort;
+
+How do you know?: it's way faster, than other sorts and has almost similar omega and bigO.
+
+sort3 uses: selection sort;
+
+How do you know?: the timing is similar between random, reversed and sorted lists.
